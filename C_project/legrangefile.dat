@@ -1,0 +1,43 @@
+
+
+
+					
+
+
+
+						LEGRANGE INTERPOLATION
+	
+	Interpolation is used to solve problems from the more general area of approximatiopn theory.
+
+	Interpolation is one of important tools in producing computable approximatins to commonly used functions.
+
+	One of the methods to implement interpolation is LEGRANGE'S METHOD. 
+
+	This method is the most clever construction of the interpolating polynomial Pn(x), and leads directly to an analytical formula. 
+
+	The Lagrange polynomial is the sum of n + 1 terms and each term is itself a polynomial of degree n. 
+
+	The fullpolynomial is therefore of degree n. Counting from 0, the ith term of the Lagrange polynomial is constructed by
+
+	requiring it to be zero at xj with j not equal to i, and equal to yi when j = i. 
+
+	Pn(x) = (x - x1)(x - x2) . . . (x - xn)y0)                 
+                ____________________________________   +            
+                (x0 - x1)(x0 - x2) . . . (x0 - xn)         
+
+		(x - x0)(x - x2) . . . (x - xn)y1                (x - x0)(x - x1) . . . (x - xn-1)yn
+		__________________________________ + . . . +     ____________________________________
+		(x1 - x0)(x1 - x2) . . . (x1 - xn)               (xn - x0)(xn - x1) . . . (xn - xn-1)
+
+	It can be clearly seen that the first term is equal to zero when x = x1, x2, . . . , xn and equal to y0 when x = x0; 
+	
+	the second term is equal to zero when x = x0, x2, . . . xn and equal to y1 when x = x1;
+ 
+	and the last term is equal to zero when x = x0, x1, . . . xn-1 and equal to yn when x = xn.
+ 
+        The uniqueness of the interpolating polynomial implies that the Lagrange polynomial must be the interpolating 
+
+	polynomial.
+
+
+

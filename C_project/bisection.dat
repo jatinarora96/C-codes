@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+						BISECTION METHOD
+
+	Bisection method is a closed method,and requires two initial guesses.
+
+	The convergence of this method is linear it has slow but steady rate of convergence.
+
+	The accuracy of this method is good.It is solved by the middle pont approach.

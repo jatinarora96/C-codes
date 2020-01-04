@@ -1,0 +1,33 @@
+                          
+
+
+
+
+
+
+
+
+
+
+                                                              PARSING
+
+	Parsing is done to evaluate a mathematical expression by breaking down the expression into small parts.
+	
+	There are many steps involved in parsing an expression.
+
+	The expression is first broken into small pieces based on the operator ('+','-','*','/','(',')').
+
+	Then as the expression is parsed(broken) it is indivisually evaluated.
+
+	Then each value is put in a data structure called stack .
+
+	The stack is then evaluated based on the operator.
+ 
+	Parsing is applicable in all the areas where a mathematical expression is required to be evaluated in a fast 
+
+	and effecient manner.
+
+	The program written can parse the value of a fully parethised expression.
+  
+
+	        

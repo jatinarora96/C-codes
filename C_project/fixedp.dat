@@ -1,0 +1,26 @@
+
+
+
+
+
+
+                                    FIXED POINT ITERATION METHOD
+
+		
+	Fixed point iteration method is commonly known as the iteration method. 
+
+	It is one of the most common methods used to find the real roots of a function. 
+	
+	This method can be used for finding the solution of arithmetic series, geometric series, Taylor's series 
+
+	and other forms of infinite series.This method is linearly convergent with somewhat slower rate of convergence, 
+
+	similar to the bisection method. It is based on modification approach to find the fixed point. 
+
+	It is commonly referred to as simple enclosure method or open bracket method.
+
+	Just like the Newton Raphson method, it requires only one initial guess, and the equation is solved by 
+
+	the assumed approximation.Iterations and modifications are successively continued with the updated 
+
+	approximations of the guess. Iterative method gives good accuracy overall just like the other methods.

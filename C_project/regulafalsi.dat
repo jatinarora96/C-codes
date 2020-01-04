@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+				REGULA FALSI METHOD
+
+	Regula Falsi method, also known as the false position method, 
+
+	is the oldest approach to find the real root of a function.
+       
+        It is a closed bracket method and closely resembles the bisection method.
+
+	This method requires two initial guesses of opposite nature. 
+
+	Like the secant method, interpolation is done to find the new values for successive iterations, 
+
+	but in this method one interval always remains constant.
+
+	The convergence is of first order and it is guaranteed. 
+
+	In manual approach, the method of false position may be slow, 
+
+	but it is found superior to the bisection method.

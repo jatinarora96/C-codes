@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+						        INTEGRATION
+
+	
+
+
+
+		We want to construct numerical algorithms that can perform definite integrals.
+
+                        	              b 
+                	                      |
+		                          I = |f(x)dx --------> (I)
+                                	      |
+                                      	      a
+
+		Calculating these definite integrals numerically is called numerical integration.
+
+		The two oldest and most popular methods for approximating (I) are the TRAPIZOIDAL RULE and SIMPSON'S RULE.
+
+	
+
+	

@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+						          TRAPIZOIDAL RULE
+
+
+	The central idea behind TRAPIZOIDAL RULE is to replace f(x) by an approximating function whose integral can be
+
+	evaluated.
+
+	Consider                  h 
+                                  |
+                              I = |f(x)dx
+                                  |
+                                  0
+
+	To perform this integral, we consider a Taylor series expansion of f(x) about the value x = h/2:
+
+	                                     (x - h/2)^2
+         f(x) = f(h/2) + (x - h/2) f'(h/2) + ___________ f''(h/2) + . . .
+                                                   2     
+
+	and solving for I, we find
+  
+	  h                h^3           h^5 
+       I= _(f(0) + f(h)) - __ f''(h/2) - ___   f''''(h/2) + . . . 
+          2                12            480  
+
