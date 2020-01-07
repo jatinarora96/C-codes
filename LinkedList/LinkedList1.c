@@ -23,6 +23,7 @@ int main(void)
 	display(start);
 	MoveSmall(start);
 	display(start);
+	free(start);
 	return 0;
 }/*End of main()*/
 
