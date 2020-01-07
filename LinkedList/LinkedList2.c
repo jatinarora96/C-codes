@@ -84,6 +84,7 @@ int main(void)
 			 printf("Wrong choice\n");
 		}/*End of switch */
 	}/*End of while */
+	free(start);
 	return 0;
 }/*End of main()*/
 
@@ -100,6 +101,11 @@ struct node *create_list(struct node *start)
 		scanf("%d",&value);
 
 		tmp= malloc(sizeof(struct node));
+		if(tmp == NULL)
+		{
+			prinf("Memory not available\n");
+			exit(1);
+		}
 		tmp->info=value;
 		tmp->link=NULL;
 
@@ -162,6 +168,11 @@ struct node *insertLast(struct node *ptr, int item)
 	if (ptr == NULL)
 	{
 		temp = malloc(sizeof(struct node));
+		if(tmp == NULL)
+		{
+			prinf("Memory not available\n");
+			exit(1);
+		}
 		temp->info = item;
 		temp->link = NULL;	
 		return temp;
