@@ -90,6 +90,11 @@ struct node *addatbeg(struct node *start,int data)
 {
 	struct node *tmp;
 	tmp=(struct node *)malloc(sizeof(struct node));
+	if(tmp == NULL)
+	{
+		printf("\nMemory not available\n");
+		exit(1);
+	}
 	tmp->info=data;
 	tmp->link=start;
 	start=tmp;
@@ -100,6 +105,11 @@ struct node *addatend(struct node *start,int data)
 {
 	struct node *p,*tmp;
 	tmp=(struct node *)malloc(sizeof(struct node));
+	if(tmp == NULL)
+	{
+		printf("\nMemory not available\n");
+		exit(1);
+	}
 	tmp->info=data;
 	p=start;
 	while(p->link!=NULL)
